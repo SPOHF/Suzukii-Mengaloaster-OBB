@@ -1,0 +1,25 @@
+.venv/
+
+# ignore dataset contents but keep folders
+
+train/*
+valid/*
+test/*
+
+# keep folder structure
+!train/.gitkeep
+!valid/.gitkeep
+!test/.gitkeep
+
+# PyTorch model files
+*.pt
+
+# Roboflow dataset metadata files
+README.roboflow.txt
+README.dataset.txt
+
+# YOLO runs (everything)
+runs/
+
+#Mac-bloatware
+.DS_Store
