@@ -11,7 +11,7 @@ The model is designed for detecting insects in agricultural and experimental env
 ```
 Suzukii-Mengaloaster-OBB/
 ├── train.py               # Training script
-├── predictYOLO2026.py     # Inference / prediction script
+├── predict.py     # Inference / prediction script
 ├── train/                 # Training dataset (ignored in git)
 ├── valid/                 # Validation dataset (ignored in git)
 ├── test/                  # Test dataset (ignored in git)
@@ -104,7 +104,7 @@ Default configuration:
 Run prediction on a single image:
 
 ```bash
-python predictYOLO2026.py
+python predict.py
 ```
 
 To modify the input image, edit the `source` parameter inside the script:
