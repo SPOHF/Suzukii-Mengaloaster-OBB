@@ -1,0 +1,13 @@
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 1
+names: ["drosophila-mengaloaster"]
+
+roboflow:
+  workspace: spohf-insect-counting
+  project: drosophila-mengaloaster-obb
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/spohf-insect-counting/drosophila-mengaloaster-obb/dataset/3
